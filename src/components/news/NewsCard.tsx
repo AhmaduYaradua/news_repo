@@ -10,7 +10,7 @@ export interface NewsCardProps {
   newsUrl: string;
 }
 
-function NewsCard({ newsImageUrl, newsHeadLine, newsUrl }: NewsCardProps) {
+function NewsCard({ newsImageUrl, newsHeadLine }: NewsCardProps) {
   return (
     <section>
       {/* <div>
