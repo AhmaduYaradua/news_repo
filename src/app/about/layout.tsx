@@ -1,6 +1,6 @@
 import React from "react";
 
-const Layout = ({ children }: { children: React.ReactNode }) => {
+const Layout = () => {
   return (
     <div>
       <h1>This will be visible</h1>
